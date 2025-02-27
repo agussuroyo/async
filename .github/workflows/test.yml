@@ -32,7 +32,7 @@ jobs:
         run: mkdir -p storages
 
       - name: Run tests
-        run: vendor/bin/phpunit
+        run: composer test
 
       - name: Run static analysis
-        run: vendor/bin/phpstan
+        run: composer analyse
