@@ -1,0 +1,26 @@
+{
+    "name": "agussuroyo/async",
+    "description": "A simple asynchronous process manager for PHP using pcntl.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+      "psr-4": {
+        "AgusSuroyo\\Async\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.5",
+      "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+      "test": "vendor/bin/phpunit",
+      "test-with-coverage": "vendor/bin/phpunit --coverage-html coverage-report",
+      "analyse": "phpstan analyse src"
+    },
+    "minimum-stability": "stable"
+  }
+  

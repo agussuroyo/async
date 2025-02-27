@@ -1,0 +1,6 @@
+.phpunit*
+composer.lock
+coverage-report
+reports
+vendor
+storages

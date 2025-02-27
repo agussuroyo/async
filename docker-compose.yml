@@ -1,0 +1,21 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PHP_VERSION: "7.4"
+    container_name: async-php
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    command: tail -f /dev/null
+    networks:
+      - async-network
+
+networks:
+  async-network:
+    driver: bridge
+
+volumes:
+  async-data:
