@@ -1,6 +1,12 @@
 # Async Process Manager
 A lightweight and efficient PHP package to manage asynchronous processes with a configurable process limit.
 
+## Installation
+Install via Composer:
+```
+composer require agussuroyo/async
+```
+
 
 ## Features
 - Asynchronous process execution with `pcntl_fork`
