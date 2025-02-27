@@ -110,6 +110,11 @@ class AsyncTest extends \PHPUnit\Framework\TestCase
 
     private function put($filename = '0', $string = ''): bool
     {
+        $directory = dirname($filename);
+        if (!is_dir($directory)) {
+            mkdir($directory, 0777, true);
+        }
+
         if (!file_exists($filename)) {
             touch($filename);
         }
