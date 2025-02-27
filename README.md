@@ -1,6 +1,6 @@
 # Async Process Manager
 
-![GitHub Workflow Status](https://github.com/agussuroyo/async/actions/workflows/test.yml/badge.svg)
+![GitHub Workflow Status](https://github.com/agussuroyo/async/actions/workflows/test.yml/badge.svg?branch=${GITHUB_REF_NAME})
 
 
 A lightweight and efficient PHP package to manage asynchronous processes with a configurable process limit.
