@@ -56,6 +56,9 @@ Run the tests using PHPUnit:
 vendor/bin/phpunit
 ```
 
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue.
+
 ## License
 This package is open-source and available under the MIT License.
 
