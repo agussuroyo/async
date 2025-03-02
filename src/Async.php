@@ -24,7 +24,7 @@ class Async implements ProcessManager
         return $this;
     }
 
-    public function run(callable $callback, int $timeout = 0): void
+    public function run(callable $callback): void
     {
         while (count($this->ids) >= $this->maxProcesses) {
             $this->waitForChild();
