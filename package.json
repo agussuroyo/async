@@ -1,0 +1,9 @@
+{
+  "name": "agussuroyo-async",
+  "description": "A simple asynchronous process manager for PHP using pcntl.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^24.2.3"
+  }
+}
