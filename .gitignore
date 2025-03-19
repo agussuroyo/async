@@ -4,3 +4,5 @@ coverage-report
 reports
 vendor
 storages
+package-lock.json
+node_modules
